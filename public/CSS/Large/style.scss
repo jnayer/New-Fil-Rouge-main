@@ -1,0 +1,606 @@
+/* Initialisation des polices */
+@font-face {
+  font-family: 'Exo_thin';
+  src: url('../../Fonts/Exo/Exo-Thin.eot');
+  src: url('../../Fonts/Exo/Exo-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../../Fonts/Exo/Exo-Thin.woff2') format('woff2'),
+  url('../../Fonts/Exo/Exo-Thin.woff') format('woff'),
+  url('../../Fonts/Exo/Exo-Thin.ttf') format('truetype'),
+  url('../../Fonts/Exo/Exo-Thin.svg#Exo-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo_medium';
+  src: url('../../Fonts/Exo/Exo-Medium.eot');
+  src: url('../../Fonts/Exo/Exo-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../../Fonts/Exo/Exo-Medium.woff2') format('woff2'),
+  url('../../Fonts/Exo/Exo-Medium.woff') format('woff'),
+  url('../../Fonts/Exo/Exo-Medium.ttf') format('truetype'),
+  url('../../Fonts/Exo/Exo-Medium.svg#Exo-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo_semi_bold';
+  src: url('../../Fonts/Exo/Exo-SemiBold.eot');
+  src: url('../../Fonts/Exo/Exo-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../../Fonts/Exo/Exo-SemiBold.woff2') format('woff2'),
+  url('../../Fonts/Exo/Exo-SemiBold.woff') format('woff'),
+  url('../../Fonts/Exo/Exo-SemiBold.ttf') format('truetype'),
+  url('../../Fonts/Exo/Exo-SemiBold.svg#Exo-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo_regular';
+  src: url('../../Fonts/Exo/Exo-Regular.eot');
+  src: url('../../Fonts/Exo/Exo-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../Fonts/Exo/Exo-Regular.woff2') format('woff2'),
+  url('../../Fonts/Exo/Exo-Regular.woff') format('woff'),
+  url('../../Fonts/Exo/Exo-Regular.ttf') format('truetype'),
+  url('../../Fonts/Exo/Exo-Regular.svg#Exo-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo_extra_light';
+  src: url('../../Fonts/Exo/Exo-ExtraLight.eot');
+  src: url('../../Fonts/Exo/Exo-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../../Fonts/Exo/Exo-ExtraLight.woff2') format('woff2'),
+  url('../../Fonts/Exo/Exo-ExtraLight.woff') format('woff'),
+  url('../../Fonts/Exo/Exo-ExtraLight.ttf') format('truetype'),
+  url('../../Fonts/Exo/Exo-ExtraLight.svg#Exo-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo_light';
+  src: url('../../Fonts/Exo/Exo-Light.eot');
+  src: url('../../Fonts/Exo/Exo-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../Fonts/Exo/Exo-Light.woff2') format('woff2'),
+  url('../../Fonts/Exo/Exo-Light.woff') format('woff'),
+  url('../../Fonts/Exo/Exo-Light.ttf') format('truetype'),
+  url('../../Fonts/Exo/Exo-Light.svg#Exo-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Style des titres */
+h1 {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  font-size: 30px;
+}
+
+h4 {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  font-size: 20px;
+}
+
+h5 {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  font-size: 10px;
+}
+
+a {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  font-size: 25px;
+}
+
+button {
+  font-size: 25px;
+}
+
+/* Style du footer */
+#footer {
+  font-family: 'Exo_regular', 'Comic Sans MS';
+  padding-top: 50px;
+  background-color: #DFDFDF;
+  font-size: 20px;
+
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    height: 50px;
+    width: 50px;
+  }
+
+  .fa-twitter {
+    background: #4C9BC1;
+    height: 50px;
+    width: 50px;
+  }
+
+  .copyright {
+    margin-top: 30px;
+    color: #0ba800;
+    font-family: 'Exo_light', 'Comic Sans MS';
+  }
+
+  .naviguer {
+    h3 {
+      color: #0BA800;
+    }
+
+    .linkFooter {
+      text-decoration: none;
+      color: black;
+      margin: 10px;
+    }
+  }
+
+  .notreProjet {
+    h3 {
+      color: #0BA800;
+    }
+
+    .linkFooter {
+      text-decoration: none;
+      color: black;
+      margin: 10px;
+    }
+  }
+}
+
+/* Style du header */
+#bgNav {
+  content: "";
+  background: linear-gradient(to left, rgba(14, 40, 83, 0.9), lightgrey);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  opacity: .90;
+  border-bottom: 1px solid rgba(255, 255, 255, 4);
+
+  nav {
+    padding: 0;
+    background: none;
+    height: 100px;
+
+    .navLogo {
+      background-image: url("../../Images/Logo_sans_slogan.png");
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position: center;
+      height: 100px;
+      width: 300px;
+      margin-left: 50px;
+      font-size: 1px;
+    }
+
+    .navMenu {
+      height: 100px;
+
+      .userNav {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 100px;
+        align-content: center;
+
+        .nav-link {
+          padding-top: 33px;
+          color: white;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      .lienNav {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 108px;
+        align-content: center;
+        border-bottom: 5px solid transparent;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        position: relative;
+        overflow: hidden;
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          right: 50%;
+          bottom: 0;
+          background: lightgreen;
+          height: 5px;
+          transition-property: left right;
+          transition-duration: 0.3s;
+          transition-timing-function: ease-out;
+        }
+
+        &:hover:before {
+          left: 0;
+          right: 0;
+        }
+
+        .nav-link {
+          padding-top: 33px;
+          color: white;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Style de la balise main */
+main {
+  iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+  }
+
+  .titres {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Exo_medium', 'Comic Sans MS';
+  }
+
+  #header {
+    color: white;
+    background-image: url("../../Images/backgroundHome.webp");
+    height: 800px;
+
+    .blockNav {
+      height: 168px;
+    }
+
+    .header_text {
+      //margin-top: 90px;
+      h1 {
+        font-family: 'Exo_medium', 'Comic Sans MS';
+        padding-bottom: 20px;
+      }
+
+      h2 {
+        line-height: 1.8;
+      }
+
+      .btnSavoirPlus {
+        a {
+          text-decoration: none;
+          color: black;
+          font-family: 'Exo_light', 'Comic Sans MS';
+        }
+
+        margin-top: 10px;
+        background-color: lightgrey;
+        border-radius: 10px;
+        height: 80px;
+        width: 60%;
+        margin-left: 10%;
+        transition: all 0.5s;
+        font-size: 20px;
+      }
+
+      .btnSavoirPlus:hover {
+        a {
+          color: #FFF;
+        }
+
+        border-color: black;
+        background-color: darkgrey;
+
+        .btnSavoirPlus:after {
+          transition: all 0.5s;
+        }
+
+        .btnSavoirPlus:before {
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+
+  #cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+
+    .sectionFonctionnement {
+      .card {
+        .card-body {
+          .card-title {
+            text-align: center;
+            line-height: 1.8;
+          }
+
+          .card-text {
+            text-align: left;
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+
+    .btnFonctionnement {
+      text-align: center;
+      margin-top: 35px;
+      font-family: 'Exo_light', 'Comic Sans MS';
+      background-color: lightgrey;
+      border-radius: 10px;
+      height: 80px;
+      width: 100%;
+      transition: all 0.5s;
+
+      .lienFonctionnement {
+        color: black;
+        text-decoration: none;
+        font-family: 'Exo_light', 'Comic Sans MS';
+      }
+    }
+
+    .btnFonctionnement:hover {
+      a {
+        color: #FFF;
+      }
+
+      border-color: black;
+      background-color: darkgrey;
+
+      .btnFonctionnement:after {
+        transition: all 0.5s;
+      }
+
+      .btnFonctionnement:before {
+        transition: all 0.5s;
+      }
+    }
+
+  }
+
+  #nousTrouver {
+  }
+
+  #login {
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+    .loginSection {
+      padding: 100px;
+      font-size: 20px;
+      font-family: 'Exo_regular', 'Comic Sans MS';
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 50%;
+      border: solid 1px black;
+
+      label {
+        padding: 20px;
+      }
+
+      p {
+        font-size: 25px;
+
+        a {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  #register {
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+    .registerSection {
+      padding: 100px;
+      font-size: 20px;
+      font-family: 'Exo_regular', 'Comic Sans MS';
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 50%;
+      border: solid 1px black;
+
+      label {
+        padding: 20px;
+      }
+
+      p {
+        font-size: 25px;
+
+        a {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  #monCompte {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Exo_regular', 'Comic Sans MS';
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+
+    h1 {
+      text-align: center;
+      padding: 50px;
+    }
+
+    .container {
+      border: solid 1px black;
+      width: 100%;
+      padding: 70px;
+    }
+  }
+
+  .article {
+    border: solid 1px #241E1E;
+    border-radius: 20px;
+    height: auto;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    h4 {
+      height: 30px;
+    }
+
+    p {
+      height: auto;
+    }
+
+    img {
+      height: auto;
+      border-radius: 20px;
+    }
+  }
+
+  #create {
+    margin-top: 115px;
+    margin-bottom: 50px;
+  }
+
+  .container {
+    .row {
+      .formSection {
+        border-radius: 20px;
+        border: solid black 1px;
+        padding: 40px;
+        font-size: 20px;
+        font-family: 'Exo_regular', 'Comic Sans MS';
+        margin-left: 20%;
+        margin-right: 20%;
+        height: auto;
+        display: block;
+        width: 60%;
+
+        label {
+          display: inline-block;
+          padding: 10px;
+        }
+
+        input {
+          display: block;
+        }
+
+        textarea {
+          display: block;
+        }
+
+        label + input[type="file"] {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  #contact {
+    margin-top: 115px;
+    margin-bottom: 20px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .input_section {
+      padding: 80px;
+      font-size: 20px;
+      font-family: 'Exo_regular', 'Comic Sans MS';
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 50%;
+      border: solid 1px black;
+      border-radius: 20px;
+
+      label {
+        display: block;
+        padding: 20px;
+      }
+
+      .inputContact {
+        margin: 10px;
+        display: block;
+      }
+    }
+  }
+
+  #leProjet {
+    margin-top: 10px;
+
+    p {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .projetSection {
+      border-top: solid 1px #707070;
+      padding: 30px;
+
+      img {
+        width: 80%;
+      }
+
+      li {
+        font-size: 25px;
+      }
+    }
+  }
+
+  #myArticles {
+    margin-top: 115px;
+    margin-bottom: 50px;
+
+    h1 {
+      a {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  #editArticle {
+    margin-top: 115px;
+    margin-bottom: 50px;
+  }
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.msg {
+  color: blue;
+  font-weight: bold;
+}
